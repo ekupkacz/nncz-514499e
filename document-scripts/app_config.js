@@ -70,53 +70,98 @@ var groupTriggers = {
 };
 
 var triggers = {
-	rb_ins_type: [
+	spolecnost_rezident: [
 		{
-			triggeringValue: 'a',
+			triggeringValue: 'y',
 			fieldNames: [
-				"nadstandard_storno",
-				"Rizikove_sporty 2",
-				"Covid20",
-				"context",
-				"platnost_od_1_af_date",
-				"platnost_do_1_af_date",
-				"pocet_dni",
-				"Poisteny_2",
-				"Poistne_vratane_dane_2",
-				"Poisteny_3",
-				"Poistne_vratane_dane_3",
-				"Poisteny_4",
-				"Poistne_vratane_dane_4",
-				"Poisteny_5",
-				"Poistne_vratane_dane_5",
-				"Poisteny_6",
-				"Poistne_vratane_dane_6",
-				"jednorazove_poistne_vratane_dane 2",
-				"z_toho_dan_z_poistenia 2",
-				"jednorazove_poistne_bez_dane 2",
-			]
-		},
-		{
-			triggeringValue: 'b',
-			fieldNames: [
-				"platnost_od_2_af_date",
-				"platnost_do_2_af_date",
-				"pocet_dni2",
-				"poistna_suma2",
-				"jednorazove_poistne_vratane_dane_B 2",
-				"z_toho_dan_z_poistenia_B 2",
-				"jednorazove_poistne_bez_dane_B 2",
+				"spolecnost_zeme",
+				"spolecnost_cislo",
 			]
 		}
 	],
-	nadstandard_storno: [
+	oddila_akcie: [
 		{
-			triggeringValue: undefined,
+			triggeringValue: 'y',
 			fieldNames: [
-				"poistna_suma1",
-				"Poistne_vratane_dane",
+				"oddila_nazev",
+				"oddila_ico",
+			]
+		}
+	],
+	oddilb_prohlaseni: [
+		{
+			triggeringValue: "b1",
+			fieldNames:[
+				"oddilb_exponovana_osoba",
 			]
 		},
+		{
+			triggeringValue: "b2",
+			fieldNames:[
+				"oddilb_prohlaseni_odlisne_jmeno1",
+				"oddilb_prohlaseni_odlisne_datum1",
+				"oddilb_prohlaseni_odlisne_obcanstvi1",
+				"oddilb_prohlaseni_odlisne_adresa1",
+				"oddilb_prohlaseni_odlisne_zeme1",
+				"oddilb_prohlaseni_odlisne_majitel1",
+				"oddilb_prohlaseni_odlisne_jmeno2",
+				"oddilb_prohlaseni_odlisne_datum2",
+				"oddilb_prohlaseni_odlisne_obcanstvi2",
+				"oddilb_prohlaseni_odlisne_adresa2",
+				"oddilb_prohlaseni_odlisne_zeme2",
+				"oddilb_prohlaseni_odlisne_majitel2",
+				"oddilb_prohlaseni_odlisne_jmeno3",
+				"oddilb_prohlaseni_odlisne_datum3",
+				"oddilb_prohlaseni_odlisne_obcanstvi3",
+				"oddilb_prohlaseni_odlisne_adresa3",
+				"oddilb_prohlaseni_odlisne_zeme3",
+				"oddilb_prohlaseni_odlisne_majitel3",
+				"oddilb_prohlaseni_odlisne_jmeno4",
+				"oddilb_prohlaseni_odlisne_datum4",
+				"oddilb_prohlaseni_odlisne_obcanstvi4",
+				"oddilb_prohlaseni_odlisne_adresa4",
+				"oddilb_prohlaseni_odlisne_zeme4",
+				"oddilb_prohlaseni_odlisne_majitel4",
+			]
+		},
+		{
+			triggeringValue: "b3",
+			fieldNames:[
+				"oddilb_prohlaseni_neni_majitel",
+			]
+		},
+	],
+	oddilb_exponovana_osoba: [
+		{
+			triggeringValue: "y",
+			fieldNames:[
+				"oddilb_jmeno1",
+				"oddilb_datum1",
+				"oddilb_obcanstvi1",
+				"oddilb_adresa1",
+				"oddilb_zeme1",
+				"oddilb_jmeno2",
+				"oddilb_datum2",
+				"oddilb_obcanstvi2",
+				"oddilb_adresa2",
+				"oddilb_zeme2",
+				"oddilb_jmeno3",
+				"oddilb_datum3",
+				"oddilb_obcanstvi3",
+				"oddilb_adresa3",
+				"oddilb_zeme3",
+				"oddilb_jmeno4",
+				"oddilb_datum4",
+				"oddilb_obcanstvi4",
+				"oddilb_adresa4",
+				"oddilb_zeme4",
+				"oddilb_jmeno5",
+				"oddilb_datum5",
+				"oddilb_obcanstvi5",
+				"oddilb_adresa5",
+				"oddilb_zeme5",
+			]
+		}
 	],
 };
 

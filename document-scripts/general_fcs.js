@@ -206,7 +206,7 @@ tooltipFields.forEach(function (fname) {
 
 function initFields(names) {
 	if (typeof names === "undefined") {
-		var names = [];
+		names = [];
 		for (var x = 0; x < this.numFields; x++) {
 			names[x] = this.getNthFieldName(x);
 		}
